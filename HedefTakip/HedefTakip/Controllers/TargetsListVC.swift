@@ -32,6 +32,9 @@ class TargetsListVC: UIViewController{
     
     
     @IBAction func btnAddClicked(_ sender: UIButton) {
+        
+        guard let addTargetVC = storyboard?.instantiateViewController(withIdentifier: "AddTargetVC") else { return }
+        presentNew(addTargetVC)
     }
     
 

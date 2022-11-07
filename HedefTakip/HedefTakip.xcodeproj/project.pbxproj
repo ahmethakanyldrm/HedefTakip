@@ -15,6 +15,11 @@
 		1C1B5BBA29111EDC00BB5988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B5BB929111EDC00BB5988 /* Assets.xcassets */; };
 		1C1B5BBD29111EDC00BB5988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B5BBB29111EDC00BB5988 /* LaunchScreen.storyboard */; };
 		1C3B2D3729126F6E0057B8AE /* TargetTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B2D3629126F6E0057B8AE /* TargetTypes.swift */; };
+		1C55BA6B2919375C00DD7E80 /* AddTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55BA6A2919375C00DD7E80 /* AddTargetViewController.swift */; };
+		1C55BA6D2919396200DD7E80 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55BA6C2919396200DD7E80 /* UIViewControllerExtension.swift */; };
+		1C55BA6F29193DE600DD7E80 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55BA6E29193DE600DD7E80 /* UIViewExtension.swift */; };
+		1C55BA7129194F0F00DD7E80 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55BA7029194F0F00DD7E80 /* UIButtonExtension.swift */; };
+		1C55BA73291955AA00DD7E80 /* CreateTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55BA72291955AA00DD7E80 /* CreateTargetViewController.swift */; };
 		1C59C6A2291268D100802017 /* TargetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59C6A1291268D100802017 /* TargetCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +34,11 @@
 		1C1B5BBC29111EDC00BB5988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C1B5BBE29111EDC00BB5988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C3B2D3629126F6E0057B8AE /* TargetTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetTypes.swift; sourceTree = "<group>"; };
+		1C55BA6A2919375C00DD7E80 /* AddTargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTargetViewController.swift; sourceTree = "<group>"; };
+		1C55BA6C2919396200DD7E80 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		1C55BA6E29193DE600DD7E80 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		1C55BA7029194F0F00DD7E80 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		1C55BA72291955AA00DD7E80 /* CreateTargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTargetViewController.swift; sourceTree = "<group>"; };
 		1C59C6A1291268D100802017 /* TargetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				1C1B5BB129111EDA00BB5988 /* TargetsListVC.swift */,
+				1C55BA6A2919375C00DD7E80 /* AddTargetViewController.swift */,
+				1C55BA72291955AA00DD7E80 /* CreateTargetViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -128,6 +140,9 @@
 		1C1B5BCA29111FB200BB5988 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1C55BA6C2919396200DD7E80 /* UIViewControllerExtension.swift */,
+				1C55BA6E29193DE600DD7E80 /* UIViewExtension.swift */,
+				1C55BA7029194F0F00DD7E80 /* UIButtonExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -203,10 +218,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C55BA73291955AA00DD7E80 /* CreateTargetViewController.swift in Sources */,
 				1C1B5BB829111EDA00BB5988 /* HedefTakip.xcdatamodeld in Sources */,
+				1C55BA7129194F0F00DD7E80 /* UIButtonExtension.swift in Sources */,
 				1C3B2D3729126F6E0057B8AE /* TargetTypes.swift in Sources */,
 				1C1B5BB229111EDA00BB5988 /* TargetsListVC.swift in Sources */,
+				1C55BA6B2919375C00DD7E80 /* AddTargetViewController.swift in Sources */,
+				1C55BA6D2919396200DD7E80 /* UIViewControllerExtension.swift in Sources */,
 				1C1B5BAE29111EDA00BB5988 /* AppDelegate.swift in Sources */,
+				1C55BA6F29193DE600DD7E80 /* UIViewExtension.swift in Sources */,
 				1C1B5BB029111EDA00BB5988 /* SceneDelegate.swift in Sources */,
 				1C59C6A2291268D100802017 /* TargetCell.swift in Sources */,
 			);
